@@ -22,4 +22,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/bootloader/bootloader.elf
+file C:/Users/arthu/Documents/RTS-Project/password_manager/build/bootloader/bootloader.elf

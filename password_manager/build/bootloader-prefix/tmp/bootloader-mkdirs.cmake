@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Users/arthu/esp/v5.5.1/esp-idf/components/bootloader/subprojec
   file(MAKE_DIRECTORY "C:/Users/arthu/esp/v5.5.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/bootloader"
-  "C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/bootloader-prefix"
-  "C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/bootloader-prefix/tmp"
-  "C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/bootloader-prefix/src"
-  "C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/arthu/Documents/RTS-Project/password_manager/build/bootloader"
+  "C:/Users/arthu/Documents/RTS-Project/password_manager/build/bootloader-prefix"
+  "C:/Users/arthu/Documents/RTS-Project/password_manager/build/bootloader-prefix/tmp"
+  "C:/Users/arthu/Documents/RTS-Project/password_manager/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/arthu/Documents/RTS-Project/password_manager/build/bootloader-prefix/src"
+  "C:/Users/arthu/Documents/RTS-Project/password_manager/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/arthu/Documents/RTS-Project/password_manager/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/arthu/Documents/RTS-Project/password_manager/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

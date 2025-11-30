@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/bootloader/bootloader.elf
+    add-symbol-file C:/Users/arthu/Documents/RTS-Project/password_manager/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/password_manager.elf
+file C:/Users/arthu/Documents/RTS-Project/password_manager/build/password_manager.elf

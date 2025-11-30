@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: C:\Users\arthu\Documents\RTS-Project\Main project\password_manager\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: C:\Users\arthu\Documents\RTS-Project\password_manager\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

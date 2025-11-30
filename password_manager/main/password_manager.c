@@ -273,7 +273,7 @@ void task_servo(void *pvParameters) {
         if(xSemaphoreTake(xSemServoTrigger, portMAX_DELAY) == pdTRUE) {
             printf("Servo: ABRINDO...\n");
             set_servo_angle(180);
-            vTaskDelay(pdMS_TO_TICKS(60000)); 
+            vTaskDelay(pdMS_TO_TICKS(5000)); 
             printf("Servo: FECHANDO...\n");
             set_servo_angle(0);
         }
@@ -312,7 +312,7 @@ void task_lcd(void *pvParameters) {
                 case MSG_SUCCESS:
                     lcd_clear(); lcd_print("SENHA CORRETA!");
                     lcd_set_cursor(1, 0); lcd_print("Porta Aberta 1m");
-                    vTaskDelay(pdMS_TO_TICKS(3000));
+                    vTaskDelay(pdMS_TO_TICKS(5000));
                     send_lcd_msg(MSG_IDLE, 0);
                     break;
                 case MSG_FAIL:

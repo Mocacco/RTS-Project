@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/main
+# Install script for directory: C:/Users/arthu/Documents/RTS-Project/password_manager/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
