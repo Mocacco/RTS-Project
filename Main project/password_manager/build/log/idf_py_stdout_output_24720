@@ -1,0 +1,18 @@
+Command: ninja all
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/password_manager.c.obj
+[2/9] Linking C static library esp-idf\main\libmain.a
+[3/9] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\arthu\Documents\RTS-Project\Main project\password_manager\build\bootloader\esp-idf\esptool_py" && C:\Users\arthu\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:/Users/arthu/esp/v5.5.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 "C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/bootloader/bootloader.bin""
+Bootloader binary size 0x6680 bytes. 0x980 bytes (8%) free.
+[4/9] No install step for 'bootloader'
+[5/9] Completed 'bootloader'
+[6/9] Generating esp-idf/esp_system/ld/sections.ld
+[7/9] Linking CXX executable password_manager.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.10.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/password_manager.bin
+[9/9] C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\arthu\Documents\RTS-Project\Main project\password_manager\build\esp-idf\esptool_py" && C:\Users\arthu\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:/Users/arthu/esp/v5.5.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app "C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/partition_table/partition-table.bin" "C:/Users/arthu/Documents/RTS-Project/Main project/password_manager/build/password_manager.bin""
+password_manager.bin binary size 0x34b90 bytes. Smallest app partition is 0x100000 bytes. 0xcb470 bytes (79%) free.
