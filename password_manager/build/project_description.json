@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "password_manager",
-    "project_version":    "5b1fa51-dirty",
+    "project_version":    "4124696-dirty",
     "project_path":       "C:/Users/arthu/Documents/RTS-Project/password_manager",
     "idf_path":           "C:/Users/arthu/esp/v5.5.1/esp-idf",
     "build_dir":          "C:/Users/arthu/Documents/RTS-Project/password_manager/build",
